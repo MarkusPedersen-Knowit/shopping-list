@@ -15,7 +15,7 @@ export default function Home() {
         }
       });
     }
-  }, [loading, items, deleteItem]);
+  }, [loading]);
 
   if (loading) {
     return <div>Laster handleliste...</div>;
